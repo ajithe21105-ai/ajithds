@@ -1,9 +1,10 @@
-f=open("mno.py","w")
+
+f=open("a.py","w")
 print(f)
 f.write("c=10")
 
 
-f=open("xyz.py","w")
+f=open("abc.py","w")
 print(f)
 f.write("b=10")
 

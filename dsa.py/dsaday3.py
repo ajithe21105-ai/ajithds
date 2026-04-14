@@ -1,3 +1,4 @@
+
 # prime num:
 
 n=int(input("nu:"))
@@ -10,6 +11,3 @@ if count == 2:
      print("true")
 else:
     print("false")
-
-
-

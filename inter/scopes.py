@@ -1,4 +1,5 @@
-x = 100   # 🌍 Global variable
+
+x = 100   #  Global variable
 
 def show_global():
     print("Inside function:", x)  # accessing global variable
@@ -12,7 +13,7 @@ print("Outside function:", x)    # also accessible here
 
 
 def show_local():
-    y = 50   # 📍 Local variable
+    y = 50   #  Local variable
     print("Inside function:", y)
 
 show_local()
