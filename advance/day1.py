@@ -22,22 +22,26 @@
 
 
 
-class student():
+class student:
+
     school_name = "xyz school"
 
-    def set_details():
+    def set_details(self):
 
-        name = "vamsi"
-        marks = 85
+        self.name = "vamsi"
+        self.marks = 95
 
-    def display():
+    def display(self):
     
-        print(name)
-        print(marks)
-        print(school name)
-o=student
-o.set_details()
-o.display()
+        print("school_name",student.school_name)
+        print("name",self.name)
+        print("marks",self.marks)
+
+stu1 = student()
+stu1.set_details()
+stu1.display()
+print(stu1.name)
+print(stu1.marks)
 
 
 
@@ -62,29 +66,28 @@ o.display()
 
 
 
+class employee:
 
+    company = "infosys"
 
+    def set_data(self):
+        self.name = "ravi"
+        self.salary = 20000
 
+    def increase_salary(self):
 
+        self.salary += 5000
 
+    def display(self):
 
+        print("company",employee.company)
+        print("name",self.name)
+        print("salary",self.salary)
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+emp1 = employee()
+emp1.set_data()
+emp1.increase_salary()
+emp1.display()
 
 
 
@@ -105,3 +108,31 @@ o.display()
 # 👉 Outside the class:
 # Create object
 # Call methods
+
+
+
+
+
+class mobile:
+
+    brand = "apple"
+
+    def set_details(self):
+
+        self.model = "iphone 14"
+        self.price = 80000
+
+    def discount(self):
+
+        self.price -= self.price *0.10
+
+    def show_details(self):
+
+        print("brand",mobile.brand)
+        print("model",self.model)
+        print("price",self.price)
+
+p = mobile()
+p.set_details()
+p.discount()
+p.show_details()

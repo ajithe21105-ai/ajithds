@@ -17,6 +17,8 @@ import random as rand
 
 # mutable + ordered =>>> list[]
 
+
+
 # l=["ram","sita","lakshman","bharatha","maruthi","ravan"]
 # rand.shuffle(l)
 # # print(l)
@@ -24,7 +26,9 @@ import random as rand
 
 
 
-print(rand.randrange(1,10,1))
+print(rand.randrange(1,100,1))
+
+
 
 
 
